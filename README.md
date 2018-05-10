@@ -1,21 +1,7 @@
-# CPY1-code-experiment-with-colour--and-sound
+# Title : 
 
-Hello world
+Code Experiment with Colours, Shape and Sound
 
-`var example = true`
+# Synopsis : 
 
-1. * one
-   * onetwo
-   * onethree
-1. two
-1. three
-
-
-
-```
-if (isAwesome){
-  return true
-}
-```
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/9tNx4LXjuPM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+Interactive audio-visual program. Facial expression and movement tracking create images and sound.
