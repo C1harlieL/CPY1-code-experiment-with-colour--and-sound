@@ -50,4 +50,11 @@ The use of a `PGraphics` object was unnecessary for the final program but was us
 ![exampleImage1](https://github.com/C1harlieL/CPY1-code-experiment-with-colour--and-sound/blob/master/iolodrawing.JPG)
 ![exampleimage2](https://github.com/C1harlieL/CPY1-code-experiment-with-colour--and-sound/blob/master/ed_drawing.JPG)
 
+The audio element of the work was done by having looping midi clips and an audio sample in Ableton with which parameters were controlled by OSC messages sent from processing and received by the Max for Live patch [TouchOSC (from the Max for Live Connection Kit)](https://github.com/Ableton/m4l-connection-kit). This patch allowed me to link the OSC messages to parameters of various affects parameters on the midi and audio tracks. 
+
+![abletonimage](https://github.com/C1harlieL/CPY1-code-experiment-with-colour--and-sound/blob/master/touchosc.JPG)
+
+In Ableton OSC messages are received and linked to in this case a frequency shifter which affects a midi clip playing repeating bell notes.
+
+Below is a demonstration of OSC messages being initialised, mapped and sent in processing script. Mapping the messages was important for them to be interpreted in a dynamic and effective way by Ableton and Max:
 
