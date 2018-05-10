@@ -13,8 +13,8 @@ The work consists of a computer and desktop monitor opposite a cushion (seating 
 ![Image of setup](https://github.com/C1harlieL/CPY1-code-experiment-with-colour--and-sound/blob/master/meg-sis.jpg)
 
 I will first focus on OSC to demonstrate my understanding of OSC and the oscP5 library which connects the various applications into one communicating system. I initialised OSC communications with the two lines of processing code:
-,,,
+```java
 oscP5 = new OscP5(this, 8338);
 myRemoteLocation = new NetAddress("127.0.0.1",12000);
 
-,,,
+```
