@@ -56,7 +56,7 @@ The audio element of the work was done by having looping midi clips and an audio
 
 In Ableton OSC messages are received and linked to in this case a frequency shifter which affects a midi clip playing repeating bell notes.
 
-Below is a demonstration of OSC messages being initialised, mapped and sent in processing script. Mapping the messages was important for them to be interpreted in a dynamic and effective way by Ableton and Max:
+Below is a demonstration of OSC messages being initialised, mapped and sent in processing script. Mapping the messages was important for them to be interpreted in a dynamic and effective way by Ableton and Max. In this case the y position from the kinect tracker is used:
 
 ```java
 OscMessage myMessage1 = new OscMessage("/y");
