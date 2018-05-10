@@ -12,7 +12,7 @@ The work consists of a computer and desktop monitor opposite a cushion (seating 
 
 ![Image of setup](https://github.com/C1harlieL/CPY1-code-experiment-with-colour--and-sound/blob/master/meg-sis.jpg)
 
-## OSC
+## OSC recieve
 
 I will first focus on OSC to demonstrate my understanding of OSC and the oscP5 library which connects the various applications into one communicating system. I initialised OSC communications with the two lines of processing code:
 
@@ -32,15 +32,15 @@ public void mouthHeightReceived(float h) {
   mouthHeight = h;
 }
 ```
+## Graphics and kinect input
+
 The variable `mouthHeight` was then used to the vary the size of an `ellipse();` which was being drawn to a graphics object:
 
 ```java
 PGraphics db; // global variable for PGraphics object
-
 …
 
 db = createGraphics(400, 200); // createGraphics function initialised to variable db inside void setup() {}
-
 …
 
 // inside draw
@@ -53,6 +53,8 @@ The use of a `PGraphics` object was unnecessary for the final program but was us
 
 ![exampleImage1](https://github.com/C1harlieL/CPY1-code-experiment-with-colour--and-sound/blob/master/iolodrawing.JPG)
 ![exampleimage2](https://github.com/C1harlieL/CPY1-code-experiment-with-colour--and-sound/blob/master/ed_drawing.JPG)
+
+## OSC Send and sound
 
 The audio element of the work was done by having looping midi clips and an audio sample in Ableton with which parameters were controlled by OSC messages sent from processing and received by the Max for Live patch [TouchOSC (from the Max for Live Connection Kit)](https://github.com/Ableton/m4l-connection-kit). This patch allowed me to link the OSC messages to parameters of various affects parameters on the midi and audio tracks. 
 
@@ -69,7 +71,7 @@ float amt=map(v1.y, 0, width, 0, 1);
 myMessage1.add(amt);
 oscP5.send(myMessage1, myLocation);
 ```
-
+## -
 This is a quick brush over some technical elements of the processing sketch but it shows the essential use of OSC, and the oscP5 and OpenKinect processing libraries, in order to transform movement / body position / facial gestures into visuals and the sound. In short:
 
 1. Movement and position of mass in the correct depth threshold is detected by the kinect and defines the position of the circles on the screen.
@@ -78,6 +80,7 @@ This is a quick brush over some technical elements of the processing sketch but 
 
 # [Video Documentation of work](https://www.youtube.com/watch?v=9tNx4LXjuPM&t=0s)
 
+# Creative process review and outcome analysis
 
-# 
+
 
