@@ -47,6 +47,8 @@ db.ellipse(v1.x, v1.y, mouthHeight*200, mouthHeigh*200);
 ```
 The use of a `PGraphics` object was unnecessary for the final program but was useful for troubleshooting with the kinect, which I will run over now. For example by displaying the `kinect.getDepthImage();` as well as the visualisation drawn to the `PGraphics`, it was helpful for tweaking the blob tracking algorithm for the  gallery space. I used the `int threshold = 625;` variable which was changed while the program was running to alter the depth threshold of the algorithm. I used the object class `KinectTracker {...}`([from kinectTracker example](https://github.com/shiffman/OpenKinect-for-Processing/blob/master/OpenKinect-Processing/examples/Kinect_v2/AveragePointTracking2/AveragePointTracking2.pde)) to contain the blob tracking algorithm which was carried out on the raw depth pixel data stored in the array: rawDepth[]; from the `kinect.getRawDepth();` array. Nested for loops cycle over the array and check if each element is less than the threshold. An average location is calculated and then stored and returned in `PVecto`r method of KinectTracker. This is then accessed in the main draw loop and determines position of the circles drawn to the `PGraphics`. A global variable for hue was also created and  determined by the plugging of the /eyeBrowHeight  OSC message, which was then mapped between 0 and 360. This colour and size of the circles forms the basis of the visual aspect of the piece. A simple pattern of circles are drawn to the graphics buffer as no background is drawn. I also added logic so that if the count of blob / depth data goes over a certain threshold a global boolean is set to true which then clears all the previously drawn circles. This allowed the user to [clear the screen by quickly swiping body](https://youtu.be/9tNx4LXjuPM?t=1m47s).
 
+![troubleshootImage](https://github.com/C1harlieL/CPY1-code-experiment-with-colour--and-sound/blob/master/early%20troubleshooting.jpg)
+
 ![exampleImage1](https://github.com/C1harlieL/CPY1-code-experiment-with-colour--and-sound/blob/master/iolodrawing.JPG)
 ![exampleimage2](https://github.com/C1harlieL/CPY1-code-experiment-with-colour--and-sound/blob/master/ed_drawing.JPG)
 
@@ -66,11 +68,13 @@ myMessage1.add(amt);
 oscP5.send(myMessage1, myLocation);
 ```
 
-This is a quick brush over some technical elements of the processing sketch but it shows the essential use of OSC, and the oscP5 and OpenKinect processing libraries, in order to connect the visuals and the sound. In short:
+This is a quick brush over some technical elements of the processing sketch but it shows the essential use of OSC, and the oscP5 and OpenKinect processing libraries, in order to transform movement / body position / facial gestures into visuals and the sound. In short:
 
 1. Movement and position of mass in the correct depth threshold is detected by the kinect and defines the position of the circles on the screen.
 1. Eyebrow height and mouth height from the webcam via FaceOSC defines the hue and size of the circles 
 1. The x and y position of the circles; the hue of the circles and the size of the circles all control various frequency shifting and flanger effects on the three midi and one audio tracks in Ableton.
 
+# [Video Documentation of work](https://www.youtube.com/watch?v=9tNx4LXjuPM&t=14s)
 
+# [Sound Sample](soundcloud.com)
 
