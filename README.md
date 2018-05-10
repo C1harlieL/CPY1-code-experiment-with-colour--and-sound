@@ -12,7 +12,7 @@ The work consists of a computer and desktop monitor opposite a cushion (seating 
 
 ![Image of setup](https://github.com/C1harlieL/CPY1-code-experiment-with-colour--and-sound/blob/master/meg-sis.jpg)
 
-## OSC recieve
+## OSC receive
 
 I will first focus on OSC to demonstrate my understanding of OSC and the oscP5 library which connects the various applications into one communicating system. I initialised OSC communications with the two lines of processing code:
 
@@ -54,7 +54,7 @@ The use of a `PGraphics` object was unnecessary for the final program but was us
 ![exampleImage1](https://github.com/C1harlieL/CPY1-code-experiment-with-colour--and-sound/blob/master/iolodrawing.JPG)
 ![exampleimage2](https://github.com/C1harlieL/CPY1-code-experiment-with-colour--and-sound/blob/master/ed_drawing.JPG)
 
-## OSC Send and sound
+## OSC Send 
 
 The audio element of the work was done by having looping midi clips and an audio sample in Ableton with which parameters were controlled by OSC messages sent from processing and received by the Max for Live patch [TouchOSC (from the Max for Live Connection Kit)](https://github.com/Ableton/m4l-connection-kit). This patch allowed me to link the OSC messages to parameters of various affects parameters on the midi and audio tracks. 
 
