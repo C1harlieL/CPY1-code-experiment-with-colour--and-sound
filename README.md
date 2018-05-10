@@ -12,6 +12,8 @@ The work consists of a computer and desktop monitor opposite a cushion (seating 
 
 ![Image of setup](https://github.com/C1harlieL/CPY1-code-experiment-with-colour--and-sound/blob/master/meg-sis.jpg)
 
+## OSC
+
 I will first focus on OSC to demonstrate my understanding of OSC and the oscP5 library which connects the various applications into one communicating system. I initialised OSC communications with the two lines of processing code:
 
 ```java
@@ -76,4 +78,6 @@ This is a quick brush over some technical elements of the processing sketch but 
 
 # [Video Documentation of work](https://www.youtube.com/watch?v=9tNx4LXjuPM&t=0s)
 
+
+# 
 
