@@ -68,9 +68,9 @@ oscP5.send(myMessage1, myLocation);
 
 This is a quick brush over some technical elements of the processing sketch but it shows the essential use of OSC, and the oscP5 and OpenKinect processing libraries, in order to connect the visuals and the sound. In short:
 
-Movement and position of mass in the correct depth threshold is detected by the kinect and defines the position of the circles on the screen.
-Eyebrow height and mouth height from the webcam via FaceOSC defines the hue and size of the circles 
-The x and y position of the circles; the hue of the circles and the size of the circles all control various frequency shifting and flanger effects on the three midi and one audio tracks in Ableton.
+1. Movement and position of mass in the correct depth threshold is detected by the kinect and defines the position of the circles on the screen.
+1. Eyebrow height and mouth height from the webcam via FaceOSC defines the hue and size of the circles 
+1. The x and y position of the circles; the hue of the circles and the size of the circles all control various frequency shifting and flanger effects on the three midi and one audio tracks in Ableton.
 
 
 
