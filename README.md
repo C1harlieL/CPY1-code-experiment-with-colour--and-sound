@@ -78,6 +78,8 @@ This is a quick brush over some technical elements of the processing sketch but 
 1. Eyebrow height and mouth height from the webcam via FaceOSC defines the hue and size of the circles 
 1. The x and y position of the circles; the hue of the circles and the size of the circles all control various frequency shifting and flanger effects on the three midi and one audio tracks in Ableton.
 
+The full processing code is included in this github repository.
+
 # [Video Documentation of work](https://www.youtube.com/watch?v=9tNx4LXjuPM&t=0s)
 
 # Creative process review and outcome analysis
