@@ -71,7 +71,7 @@ float amt=map(v1.y, 0, width, 0, 1);
 myMessage1.add(amt);
 oscP5.send(myMessage1, myLocation);
 ```
-## -
+## 
 This is a quick brush over some technical elements of the processing sketch but it shows the essential use of OSC, and the oscP5 and OpenKinect processing libraries, in order to transform movement / body position / facial gestures into visuals and the sound. In short:
 
 1. Movement and position of mass in the correct depth threshold is detected by the kinect and defines the position of the circles on the screen.
@@ -81,6 +81,22 @@ This is a quick brush over some technical elements of the processing sketch but 
 # [Video Documentation of work](https://www.youtube.com/watch?v=9tNx4LXjuPM&t=0s)
 
 # Creative process review and outcome analysis
+
+## Research
+
+## Audience and Outcomes
+
+The intended audience was varied. Potential future collaborators (performers, sound artists, programmers, artists) were an important section of this. The potential performance possibilities working in the medium of interactive and audio-visual are pretty endless, and this area excites me. Having responsive and dynamic visuals to accompany musical performers and the inverse, having image and novel input informing sound are two big areas to explore, especially with those with specialised skills. For these potential collaborators a demonstration of the computional literacy and technicalility was important. A questioning and mixed audience, *fine-art-engaged* or anyone else, was also desired for unexpected and aptypical responses which could progress my work in new directions.
+
+The original intention for it to be an interactive audio-visual installation was kept through but it was more the concept that developed. The original idea for it to be a 
+
+hypnotic
+sound visualisation
+
+
+
+
+
 
 
 
