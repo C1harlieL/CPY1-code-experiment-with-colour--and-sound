@@ -99,7 +99,7 @@ The original intention for it to be an interactive audio-visual installation was
 
 ## Creative process
 
-The creative process really came, once the original concept was established, through the programming of the work in processing, particularly the receiving and interpreting of the OSC messages, as well as sending and effectivley mapping OSC to Ableton. I have documented this in **Build Description and tech details** above. The project was hacked together and had four running applications if you count the max layer on top of Ableton. Containing the graphics, face tracking and kinect inputs in one application (probably and openFrameworks app) could improve it, though lag or high-latency was never an issue (though it was displayed on a powerful dektop). 
+The creative process really came, once the original concept was established, through the programming of the work in processing, particularly the receiving and interpreting of the OSC messages, as well as sending and effectivley mapping OSC to Ableton. I have documented this in **Build Description and tech details** above. The project was hacked together and had four running applications if you count the max layer on top of Ableton. Containing the graphics, face tracking and kinect inputs in one application (probably an openFrameworks app) could improve it, though lag or high-latency was never an issue (though it was displayed on a powerful dektop). 
 
 ## Positive comments
 
