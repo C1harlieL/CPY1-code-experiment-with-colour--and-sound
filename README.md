@@ -92,23 +92,26 @@ The build itself went well and I think this was down to broad research into pote
 
 ## Audience and Outcomes
 
-The intended audience was varied. Potential future collaborators (performers, sound artists, programmers, artists) were an important section of this. The potential performance possibilities working in the medium of interactive and audio-visual are pretty endless, and this area excites me. Having responsive and dynamic visuals to accompany musical performers and the inverse, having image and novel input informing sound are two big areas to explore, especially with those with specialised skills. For these potential collaborators a demonstration of the computional literacy and technicalility was important. A questioning and mixed audience, *fine-art-engaged* or anyone else, was also desired for unexpected and aptypical responses which could progress my work in new directions. Children seemed to respond well to piece, with enjoyment and ease of use, as did those who've previously had experience with a kinect. For some my symbolic and on-screen instructions were too abstract for them and needed more instruction on how to interact with it effectively. With some basic guidance anyone seemed to get the hang. As a interactive *art-work* this could prompt development of more accessible instruction or interaction, but as a concept work I don't think a need for instruction detracts from it as an experience.
+The intended audience was varied. Potential future collaborators (performers, sound artists, programmers, artists) were an important section of this. The potential performance possibilities working in the medium of interactive and audio-visual are pretty endless, and this area excites me. Having responsive and dynamic visuals to accompany musical performers and the inverse, having image and novel input informing sound are two big areas to explore, especially with those with specialised skills. For these potential collaborators a demonstration of the computional literacy and technicalility was important. A questioning and mixed audience, *fine-art-engaged* or anyone else, was also desired for unexpected and aptypical responses which could progress my work in new directions. Children seemed to respond well to piece, with enjoyment and ease of use, as did those who've previously had experience with a kinect. For some, my symbolic and on-screen instructions were too abstract for them and needed more instruction on how to interact with it effectively. With some basic guidance anyone seemed to get the hang of it. As a interactive *art-work* this could prompt development of more accessible instruction or interaction, but as a concept work I don't think a need for instruction detracts from it as an experience.
 
 The original intention for it to be an interactive audio-visual installation was kept through but it was more the concept that developed. The final graphics used were really very simple but were a clean and precise visual record and visual of the sound produced. The original idea for it to be conceptually speculative transformed into something more abstract and simply a concept work. What are the possibilities for sound generation with idiosyncratic controls and inputs? What are the possiblities for sound visualisation and syncronous audio-visual synthesis? 
 
 
 ## Creative process
 
-The creative process really came, once the original concept was established, through the programming of the work in processing, particularly the receiving and interpreting of the OSC messages, as well as sending and effectivley mapping OSC to Ableton. 
+The creative process really came, once the original concept was established, through the programming of the work in processing, particularly the receiving and interpreting of the OSC messages, as well as sending and effectivley mapping OSC to Ableton. I have documented this in **Build Description and tech details** above. The project was hacked together and had four running applications if you count the max layer on top of Ableton. Containing the graphics, face tracking and kinect inputs in one application (probably and openFrameworks app) could improve it, though lag or high-latency was never an issue (though it was displayed on a powerful dektop). 
 
-'hypnotic'
+## Positive comments
+
+'hypnotic to play with'
 
 'strong sound visualisation / good connection between audio and visual'
 
+'atmospheric sound'
 
+## Potential Development
 
+It would have been nice to **let users save their own creations**, audio as well as image, maybe together. A simple but amusing development would be to **stream the webcam feed of the user's face and body movement to a remote location** in the gallery seperate from the work for the amusement of passers by.
 
-
-
-
+Developing the work as a performance tool would be exciting, maybe doing comedic face and body controlled musical performances? Working with musicians to visualise sound or have dynamic on-the-fly visuals is another immediated possibility. Developing **custom audio software in a environment like superCollider** would also be and exciting accompaniment. This piece worked well for effects controls but I did not explore **generating midi data directly by OSC**.
 
