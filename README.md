@@ -113,5 +113,7 @@ The creative process really came, once the original concept was established, thr
 
 It would have been nice to **let users save their own creations**, audio as well as image, maybe together. A simple but amusing development would be to **stream the webcam feed of the user's face and body movement to a remote location** in the gallery seperate from the work for the amusement of passers by.
 
-Developing the work as a performance tool would be exciting, maybe doing comedic face and body controlled musical performances? Working with musicians to visualise sound or have dynamic on-the-fly visuals is another immediated possibility. Developing **custom audio software in a environment like superCollider** would also be and exciting accompaniment. This piece worked well for effects controls but I did not explore **generating midi data directly by OSC**.
+Developing the work as a performance tool would be exciting, maybe doing comedic face and body controlled musical performances? Working with musicians to **visualise sound** or have **dynamic on-the-fly visuals** is another immediated possibility. Developing **custom audio software in an environment like superCollider** would also be and exciting accompaniment. This piece worked well for effects controls but I did not explore **generating midi data directly by OSC**.
+
+![video idea](https://www.youtube.com/watch?v=3zTpI2mnjXc)
 
