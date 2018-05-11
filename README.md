@@ -84,14 +84,26 @@ This is a quick brush over some technical elements of the processing sketch but 
 
 ## Research
 
+Originally I started looking at p5.js and a javascript libraries for eye tracking and face tracking. I found them to be unreliable and high-latency. Working with native processing allowed for use of a more powerful graphics engine and kinect libraries. The project could have been implemented in p5.js as well but building in processing meant experimentation with more complex graphics was also possible. 
+
+I started researching and beginning to learn pure data as I was planning on creating patches for synthesising digital sound and then controlling this by OSC. This would have been possible but I found at the time the learning curve to steep and to achieve this. Using a proffesional DAW for audio synthesis was very helpful as it meant I could quickly and easily produce a wide variety of sound and have this respond dynamically to the processing outputs. It took a while to implement sound as the ableton-connection kit's touchOSC was badly titled and described, even though it is simply an OSC receiver for Ableton.
+
+The build itself went well and I think this was down to broad research into potential possibilities for sound.
+
 ## Audience and Outcomes
 
-The intended audience was varied. Potential future collaborators (performers, sound artists, programmers, artists) were an important section of this. The potential performance possibilities working in the medium of interactive and audio-visual are pretty endless, and this area excites me. Having responsive and dynamic visuals to accompany musical performers and the inverse, having image and novel input informing sound are two big areas to explore, especially with those with specialised skills. For these potential collaborators a demonstration of the computional literacy and technicalility was important. A questioning and mixed audience, *fine-art-engaged* or anyone else, was also desired for unexpected and aptypical responses which could progress my work in new directions.
+The intended audience was varied. Potential future collaborators (performers, sound artists, programmers, artists) were an important section of this. The potential performance possibilities working in the medium of interactive and audio-visual are pretty endless, and this area excites me. Having responsive and dynamic visuals to accompany musical performers and the inverse, having image and novel input informing sound are two big areas to explore, especially with those with specialised skills. For these potential collaborators a demonstration of the computional literacy and technicalility was important. A questioning and mixed audience, *fine-art-engaged* or anyone else, was also desired for unexpected and aptypical responses which could progress my work in new directions. Children seemed to respond well to piece, with enjoyment and ease of use, as did those who've previously had experience with a kinect. For some my symbolic and on-screen instructions were too abstract for them and needed more instruction on how to interact with it effectively. With some basic guidance anyone seemed to get the hang. As a interactive *art-work* this could prompt development of more accessible instruction or interaction, but as a concept work I don't think a need for instruction detracts from it as an experience.
 
-The original intention for it to be an interactive audio-visual installation was kept through but it was more the concept that developed. The original idea for it to be a 
+The original intention for it to be an interactive audio-visual installation was kept through but it was more the concept that developed. The final graphics used were really very simple but were a clean and precise visual record and visual of the sound produced. The original idea for it to be conceptually speculative transformed into something more abstract and simply a concept work. What are the possibilities for sound generation with idiosyncratic controls and inputs? What are the possiblities for sound visualisation and syncronous audio-visual synthesis? 
 
-hypnotic
-sound visualisation
+
+## Creative process
+
+The creative process really came, once the original concept was established, through the programming of the work in processing, particularly the receiving and interpreting of the OSC messages, as well as sending and effectivley mapping OSC to Ableton. 
+
+'hypnotic'
+
+'strong sound visualisation / good connection between audio and visual'
 
 
 
